@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電影宅急便</title>
+
+    <style>
+        @import url(assets/css/index.css);
+        @import url(assets/css/good.css);
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="header">
+                <div id="logo">
+                    <img src="assets/img/box.png" style="height:40px;weight:40px;margin-right:10px;margin-top: 10px;">
+                    <h1><a href="index.html" style="color:white;">電影宅急便</a></h1>
+                        <div id="header_nav2">
+                            <a href="index.html"><div id="h_nav2_text"><img src="assets/img/home.png" class="h_nav2_icon">首頁</div></a>
+                            <div id="h_nav2_text3">|</div>
+                            <a href="Hotmovie.html"><div id="h_nav2_text2"><img src="assets/img/fire.png" class="h_nav2_icon">近期熱門</div></a>
+                            <a href="product.html"><div id="h_nav2_text2"><img src="assets/img/film.png" class="h_nav2_icon">所有電影</div></a>
+                            <a href="car.html"><div id="h_nav2_text2"><img src="assets/img/film.png" class="h_nav2_icon">我的片單</div></a>
+                            <a href="login.html"><span id="h_nav2_text2" style="background: none;border: none;"><img src="assets/img/user.png" class="h_nav2_icon">登入/註冊</span></a>   
+                        </div>
+                        <div id="h_nav1_img" onclick="show()">
+                            <button id="button" style="background: none;border: none;"><img src="assets/img/list.png" class="h_nav1_icon"></button>
+                        </div>
+                    <div id="header_nav1">
+                        <div id="h_nav1_text1">
+                            <a href="javascript:void(0)" id="h_n_text_1" onclick="show()">電影宅急便</a><hr>
+                        </div>
+                        <div id="h_nav1_text">
+                            <input class="h_n1_text_search" id="textbox" type="search" placeholder="搜索您想要的商品">
+                            <a href="index.html"><p id="h_n_text_2"><img src="assets/img/home.png" class="h_nav2_icon">首頁</p></a>
+                            <a href="member.html"><p id="h_n_text_2"><img src="assets/img/user.png" class="h_nav2_icon">會員中心</p></a><hr>
+                            <a href="Hotmovie.html"><p id="h_n_text_2" style="margin-top:30px;"><img src="assets/img/fire.png" class="h_nav2_icon">近期熱門</p></a>
+                            <a href="product.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">所有電影</p></a>
+                            <a href="plot.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">劇情片</p></a>
+                            <a href="fantasy.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">奇幻片</p></a>
+                            <a href="animation.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">動畫片</p></a>
+                            <a href="car.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">我的片單</p></a>
+                            <a href="about.html"><p id="h_n_text_2"><img src="assets/img/user.png" class="h_nav2_icon">關於我們</p></a>
+                            <a href="login.html"><p id="h_n_text_2" style="margin-top:40%;"><img src="assets/img/user.png" class="h_nav2_icon">登入</p></a>                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height:85px"></div>
+        </header>
+        <section>
+            <form action="car.html" method="get">
+                <div class="good_section">
+                    <div class="good">
+                        <div class="good_img">
+                            <img src="assets/img/hower.png" style="height:100%;width:100%;">
+                        </div>
+                        <div class="good_text1">
+                            <div class="good_title">
+                                <h1 class="good_title1">🎞 霍爾的移動城堡</h1>
+                                <p class="good_title2"> 𝑯𝒐𝒘𝒍'𝒔 𝑴𝒐𝒗𝒊𝒏𝒈 𝑪𝒂𝒔𝒕𝒍𝒆</p>
+                            </div>
+                            <table class="introduce1">
+                                <tr>
+                                    <td class="i_title">導 演 : </td>
+                                    <td class="i_title1">	宮崎駿</td>
+                                </tr>
+                                <tr>
+                                    <td class="i_title">演 員 : </td>
+                                    <td class="i_title1">倍賞千恵子、木村拓哉</td>
+                                </tr>
+                                <tr>
+                                    <td class="i_title">類 型 : </td>
+                                    <td class="i_title1">奇幻/動畫</td>
+                                </tr>
+                                <tr>
+                                    <td class="i_title">片 長 : </td>
+                                    <td class="i_title1">1小時59分鐘</td>
+                                </tr>
+                                <tr>
+                                    <td class="i_title">級 數 : </td>
+                                    <td class="i_title1">普通級</td>
+                                </tr>
+                            </table>
+                            <div class="good_button">
+                                <input type="button" class="num-button" id="btnone" value="-" onclick="minusNUM(0)">
+                                <input type="text" id="num" class="number" value="1">
+                                <input type="button" class="num-button" id="btntwo" value="+" onclick="addNUM(0)">
+                                <span class="button_text">(天)</span>
+                            </div>
+                            <div class="stock">
+                                庫存:12
+                            </div>
+                            <div class="car">
+                                <input type="submit" class="car_button" value="加入購物車">
+                                <input type="submit" class="car_button" value="直接購買">
+                            </div>
+                        </div>
+                        <div class="introduce2">
+                            <table class="introduce2_text1">
+                                <tr>
+                                    <td>★</td>
+                                    <td>全臺票房累積 9545 萬元</td>
+                                </tr>
+                                <tr>
+                                    <td>★</td>
+                                    <td>獲選第 62 屆威尼斯影展「傑出動畫獎」</td>
+                                </tr>
+                                <tr>
+                                    <td>★</td>
+                                    <td>入圍第 78 屆奧斯卡金像獎「最佳動畫片獎」</td>
+                                </tr>
+                                
+                            </table>
+                            <div class="introduce2_text2">
+                                <div class="introduce_text2_title">
+                                    電影簡介:
+                                </div>
+                                <div class="introduce_text2_article">
+                                    愛國主義的全盛時期，國家的士兵們正準備遠赴戰地。在荒郊野外裡，竟出現一個傳說專吃美女心臟的巫師霍爾，
+                                    及他所居住的移動城堡。在荒郊附近的城鎮，有位名叫蘇菲的18 歲少女，在父親遺留的帽子店認真工作的她，
+                                    有天在街上被士兵騷擾巧遇美男子霍爾搭救，好像在被什麼追趕的霍爾，忽然抱起蘇菲一同飛上天空漫步，
+                                    蘇菲的心從此深深地被霍爾吸引…
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="video_title">
+                            <h2>精彩預告搶先看</h2>
+                        </div>
+                        <div class="youtube">
+                            <iframe width="1253" height="705" src="https://www.youtube.com/embed/iwROgK94zcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="comment_title">
+                           <h2>電影評論</h2>
+                        </div>
+                        <div class="comment_text">
+                            <div class="comment_text_img">
+                                <img src="assets/img/user.png" style="width:60px;height:60px;display: block;margin: auto;">
+                                <p style="text-align: center;color:white;margin-top:10px">王小明</p>
+                            </div>
+                            <div class="comment_text1">
+                                <p>
+                                    這部像是給大人讀的童話故事，在充滿奇幻魔法的世界中，有迷糊善良的公主、帥氣逼人王子和無惡不作的女巫，少了小說中的複雜與殘酷，卻更貼近你我的現實生活，彷彿只要在看電影時偷偷許下願望，就能隨著電影一一實現；唯獨與童話不同的是，角色們找的從來不是失落的寶藏，也不以打倒大魔王為目標，而是連同女巫自己，渴望的都是找回自己的真實面貌。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment_text">
+                            <div class="comment_text_img">
+                                <img src="assets/img/user.png" style="width:60px;height:60px;display: block;margin: auto;">
+                                <p style="text-align: center;color:white;margin-top:10px">小黑</p>
+                            </div>
+                            <div class="comment_text1">
+                                <p>
+                                    這部2004年的日本動漫充滿奇幻色彩，天馬行空的想像，動人心魄的戰鼓，溫情縈繞的戀歌，一切的一切讓人意猶未盡，流連忘返。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer1">
+                    <img src="assets/img/box.png" style="height:40px;width:40px">
+                    <div class="footer_text1">
+                        <h2>電影宅急便</h2>
+                    </div>
+                </div>
+                <div class="footer2">
+                    <div class="footer2_text1">
+                        <h3>TEL:+886347261821</h3>
+                    </div>
+                    <div class="footer2_text2">
+                        <h3>地址:桃園市新中北路200號</h3>
+                    </div>
+                </div>
+                <div class="footer3">
+                    <div class="footer3_img">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="assets/img/fb.png" style="height:35px;width:35px"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/ig.png" style="height:35px;width:35px;margin-left: 15px;"></a>
+                    </div>
+                </div>
+                <div class="footer4">
+                    <div class="footer4_text">
+                        <h6>CopyRight @ 電影宅急便 All Rights Reserved</h6>
+                        <h6>訪客人數:10000</h6>
+                    </div> 
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/index.js" >
+    </script>       
+</body>
+</html>

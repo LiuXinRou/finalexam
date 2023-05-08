@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.good{
+    margin: auto;
+    width:70%;
+    min-width: 500px;
+    height:auto;
+    padding:30px;
+    background:#909fa69b;
+    display: flex;
+    justify-content: center;
+}
+.good_img{
+    height:400px;
+    width:280px;
+    border:6px #CCCCCC ridge ;
+}
+.good_text1{
+    color:white;
+    width:28%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.good_title1{
+    font-size: 26px;
+}
+.good_title2{
+    text-align:left;
+    padding-left: 35px;
+    padding-right: 50px;
+}
+.introduce1{
+    margin-top: 30px;
+    width:100%;
+}
+.i_title{
+    font-weight: bold;
+    text-align: justify;
+    text-align-last: justify;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    width:100px;
+    min-width:70px;
+    vertical-align: text-top;
+}
+.i_title1{
+    padding-bottom: 5px;
+    vertical-align: text-top;
+}
+.good_button{
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 40px;
+}
+.num-button{
+    border:1px solid lightgray;
+    width:25px;
+    height:25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.number{
+    border:none;
+    border-top: 1px solid lightgray;
+    border-bottom: lightgray;
+    height:22px;
+    width:30px;
+    text-align: center;
+}
+.button_text{
+    font-size: 10px;
+    position:relative;
+    top:3px;
+    color:lightgray;
+}
+.stock{
+    text-align: right;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color:lightgray;
+}
+.car{
+    margin-top: 5px;
+    text-align: center;
+}
+.car_button{
+    margin:10px;
+    border:none;
+    color:white;
+    background-color:#999999;
+    font-size: 15px;
+    border-radius: 10px;
+    padding:5px;
+}
+.car_button:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.introduce2{
+    color:white;
+    width:330px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.introduce2_text1{
+    font-size: 17px;
+}
+.introduce2_text1 td{
+    vertical-align: text-top;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+.introduce2_text2{
+    margin-top: 30px;
+}
+.introduce_text2_title{
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.introduce_text2_article{
+    margin-top: 10px;
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 25px;
+}
+.video{
+    margin-top: 30px;
+}
+.video_title{
+    color:white;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.youtube{
+    text-align: center;
+}
+
+.comment{
+    background: #909fa69b;
+    margin: auto;
+    margin-top: 40px;
+    width:70%;
+    min-width: 500px;
+    height:auto;
+    padding:20px;
+    border-radius: 5px;
+}
+.comment_title{
+    color:white;
+    font-weight: 600;
+    text-align: center;
+}
+.comment_text{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.comment_text_img{
+    width:10%;
+    margin-right: 30px;
+}
+.comment_text1{
+    width:45%;
+    color:white;
+    
+}

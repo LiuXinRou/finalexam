@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電影宅急便</title>
+
+    <style>
+        @import url(assets/css/index.css);
+        @import url(assets/css/good.css);
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <header>
+            <div id="header">
+                <div id="logo">
+                    <img src="assets/img/box.png" style="height:40px;weight:40px;margin-right:10px;margin-top: 10px;">
+                    <h1><a href="index.html" style="color:white;">電影宅急便</a></h1>
+                        <div id="header_nav2">
+                            <a href="index.html"><div id="h_nav2_text"><img src="assets/img/home.png" class="h_nav2_icon">首頁</div></a>
+                            <div id="h_nav2_text3">|</div>
+                            <a href="Hotmovie.html"><div id="h_nav2_text2"><img src="assets/img/fire.png" class="h_nav2_icon">近期熱門</div></a>
+                            <a href="product.html"><div id="h_nav2_text2"><img src="assets/img/film.png" class="h_nav2_icon">所有電影</div></a>
+                            <a href="car.html"><div id="h_nav2_text2"><img src="assets/img/film.png" class="h_nav2_icon">我的片單</div></a>
+                            <a href="login.html"><span id="h_nav2_text2" style="background: none;border: none;"><img src="assets/img/user.png" class="h_nav2_icon">登入/註冊</span></a>   
+                        </div>
+                        <div id="h_nav1_img" onclick="show()">
+                            <button id="button" style="background: none;border: none;"><img src="assets/img/list.png" class="h_nav1_icon"></button>
+                        </div>
+                    <div id="header_nav1">
+                        <div id="h_nav1_text1">
+                            <a href="javascript:void(0)" id="h_n_text_1" onclick="show()">電影宅急便</a><hr>
+                        </div>
+                        <div id="h_nav1_text">
+                            <input class="h_n1_text_search" id="textbox" type="search" placeholder="搜索您想要的商品">
+                            <a href="index.html"><p id="h_n_text_2"><img src="assets/img/home.png" class="h_nav2_icon">首頁</p></a>
+                            <a href="member.html"><p id="h_n_text_2"><img src="assets/img/user.png" class="h_nav2_icon">會員中心</p></a><hr>
+                            <a href="Hotmovie.html"><p id="h_n_text_2" style="margin-top:30px;"><img src="assets/img/fire.png" class="h_nav2_icon">近期熱門</p></a>
+                            <a href="product.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">所有電影</p></a>
+                            <a href="plot.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">劇情片</p></a>
+                            <a href="fantasy.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">奇幻片</p></a>
+                            <a href="animation.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">動畫片</p></a>
+                            <a href="car.html"><p id="h_n_text_2"><img src="assets/img/film.png" class="h_nav2_icon">我的片單</p></a>
+                            <a href="about.html"><p id="h_n_text_2"><img src="assets/img/user.png" class="h_nav2_icon">關於我們</p></a>
+                            <a href="login.html"><p id="h_n_text_2" style="margin-top:40%;"><img src="assets/img/user.png" class="h_nav2_icon">登入</p></a>                   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="height:85px"></div>
+        </header>
+        <section>
+            <form action="car.html" method="get">
+                <div class="good_section">
+                    <div class="good">
+                        <div class="good_img">
+                            <img src="assets/img/yourname.png" style="height:100%;width:100%;">
+                        </div>
+                        <div class="good_text1">
+                            <div class="good_title">
+                                <h1 class="good_title1">🎞 你的名字</h1>
+                                <p class="good_title2"> 𝑨𝒏𝒐𝒕𝒉𝒆𝒓 𝑺𝒊𝒅𝒆:𝑬𝒂𝒓𝒕𝒉𝒃𝒐𝒖𝒏𝒅</p>
+                            </div>
+                            <table class="introduce1">
+                                <tr>
+                                    <td class="i_title">導 演 : </td>
+                                    <td class="i_title1">新海誠</td>
+                                </tr>
+                                <tr>
+                                    <td class="i_title">演 員 : </td>
+                                    <td class="i_title1">神木隆之介、上白石萌音</td>
+                                </tr>
+                                <tr>
+                                    <td class="i_title">類 型 : </td>
+                                    <td class="i_title1">愛情/動畫</td>
+                                </tr>
+                                <tr>
+                                    <td class="i_title">片 長 : </td>
+                                    <td class="i_title1">1小時46分鐘</td>
+                                </tr>
+                                <tr>
+                                    <td class="i_title">級 數 : </td>
+                                    <td class="i_title1">普通級</td>
+                                </tr>
+                            </table>
+                            <div class="good_button">
+                                <input type="button" class="num-button" id="btnone" value="-" onclick="minusNUM(0)">
+                                <input type="text" id="num" class="number" value="1">
+                                <input type="button" class="num-button" id="btntwo" value="+" onclick="addNUM(0)">
+                                <span class="button_text">(天)</span>
+                            </div>
+                            <div class="stock">
+                                庫存:25
+                            </div>
+                            <div class="car">
+                                <input type="submit" class="car_button" value="加入購物車">
+                                <input type="submit" class="car_button" value="直接購買">
+                            </div>
+                        </div>
+                        <div class="introduce2">
+                            <table class="introduce2_text1">
+                                <tr>
+                                    <td>★</td>
+                                    <td>日本票房累積高達 250.3 億日圓</td>
+                                </tr>
+                                <tr>
+                                    <td>★</td>
+                                    <td>全臺首週票房突破 6400 萬元</td>
+                                </tr>
+                                <tr>
+                                    <td>★</td>
+                                    <td>日本網路雜誌《Japan Web Magazine》評選30部最佳日本動畫電影榮獲第三</td>
+                                </tr>
+                                
+                            </table>
+                            <div class="introduce2_text2">
+                                <div class="introduce_text2_title">
+                                    電影簡介:
+                                </div>
+                                <div class="introduce_text2_article">
+                                    高校男孩立花瀧（神木隆之介 飾）在半夢半醒間睜開睡眼，竟發現自己身處不知名的房間，甚至發現自己變成一個陌生女孩！而遠在他方的高校女生宮水三葉（上白石萌音 飾），
+                                    醒來時也發現自己變成男孩，原來是他們的身體對調了！驚醒的兩人跳起床後發現又回到了自己的身體裡，但只要睡覺或半...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video">
+                        <div class="video_title">
+                            <h2>精彩預告搶先看</h2>
+                        </div>
+                        <div class="youtube">
+                            <iframe width="1253" height="705" src="https://www.youtube.com/embed/kkBdOiaDmRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <div class="comment_title">
+                           <h2>電影評論</h2>
+                        </div>
+                        <div class="comment_text">
+                            <div class="comment_text_img">
+                                <img src="assets/img/user.png" style="width:60px;height:60px;display: block;margin: auto;">
+                                <p style="text-align: center;color:white;margin-top:10px">王小明</p>
+                            </div>
+                            <div class="comment_text1">
+                                <p>
+                                    《你的名字》的開場像MV般的熱鬧也夢幻，或許就不想讓悲情的傷痛延伸，新海誠在創作這部作品時，坦言受到311大地震的影響。 觀影當慢慢進入劇情時，會被瀧與三葉的情感所感動，尤其最後瀧在尋找三葉，想辦法挽救糸守町的努力過程，從悲絕失望到翻轉，心情會隨著主角瀧而起伏。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment_text">
+                            <div class="comment_text_img">
+                                <img src="assets/img/user.png" style="width:60px;height:60px;display: block;margin: auto;">
+                                <p style="text-align: center;color:white;margin-top:10px">小黑</p>
+                            </div>
+                            <div class="comment_text1">
+                                <p>
+                                    新海誠藉著許多橋段，描繪出更多劇情以外的東西，觀眾若能了解其中意義，更能感受電影所帶來的餘韻。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer1">
+                    <img src="assets/img/box.png" style="height:40px;width:40px">
+                    <div class="footer_text1">
+                        <h2>電影宅急便</h2>
+                    </div>
+                </div>
+                <div class="footer2">
+                    <div class="footer2_text1">
+                        <h3>TEL:+886347261821</h3>
+                    </div>
+                    <div class="footer2_text2">
+                        <h3>地址:桃園市新中北路200號</h3>
+                    </div>
+                </div>
+                <div class="footer3">
+                    <div class="footer3_img">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="assets/img/fb.png" style="height:35px;width:35px"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img src="assets/img/ig.png" style="height:35px;width:35px;margin-left: 15px;"></a>
+                    </div>
+                </div>
+                <div class="footer4">
+                    <div class="footer4_text">
+                        <h6>CopyRight @ 電影宅急便 All Rights Reserved</h6>
+                        <h6>訪客人數:10000</h6>
+                    </div> 
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/index.js" >
+    </script>       
+</body>
+</html>

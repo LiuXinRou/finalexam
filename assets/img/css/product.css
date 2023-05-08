@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.pd_title{
+   margin-top: 30px;
+   position:relative;
+   top:10px;
+}
+.pd_title h1{
+    color:white;
+    font-size: 28px;
+    text-align: center;
+}
+.pd_section1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.pd_section1_poster{
+    max-width: 1200px;
+    width:100%;
+    box-sizing: content-box;
+}
+.poster_row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.poster{
+    padding:10px;
+    margin-top: 20px;
+}
+.poster img{
+    overflow: hidden;
+}
+.poster_img{
+    height:370px;
+    width:260px;
+    margin-bottom: 10px;
+    transform: scale(1,1);
+    transition: all .5s ease-out;
+}
+.poster_img:hover{
+    transform: scale(1.05,1.05);
+}
+.poster_text1{
+    color:white;
+    font-size: 18px;
+}
+.poster_text2{
+    color:#999;
+}
+.poster_text2 span{
+    color:rgb(209, 207, 207);
+    font-weight: bold;
+}
